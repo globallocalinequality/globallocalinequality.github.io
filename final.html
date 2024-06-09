@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global and Local Inequality Research Data Archive</title>
+    <style>
+        body {
+            font-family: 'Gisha', sans-serif;
+            background-color: #ffffff;
+            color: #000000; /* Black font color */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffffff; /* White background */
+            color: #000000; /* Black font color */
+            padding: 1.5em 0;
+            text-align: center;
+            font-size: 1em; /* Reduced font size */
+            letter-spacing: 0.1em;
+        }
+        header h1 {
+            text-transform: uppercase;
+            font-size: 2em; /* Increased font size for the title */
+            font-family: 'Garamond', serif; /* Title font set to Garamond */
+            font-weight: normal; /* Not bold */
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #000000; /* Black background for the navigation bar */
+            color: white;
+            padding: 0.5em 0;
+            width: 100%;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1em 6em; /* Increased padding for more space between links */
+            font-size: 1.2em; /* Increased font size */
+            transition: background 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background: #f0f8ff;
+            color: #000000;
+        }
+        .main-content {
+            padding: 2em 0;
+            background-color: #ffffff;
+            transition: background 0.3s;
+        }
+        .main-content h2 {
+            border-bottom: 2px solid #000000; /* Black border */
+            padding-bottom: 0.5em;
+        }
+        .main-content:last-of-type {
+            padding-bottom: 6em; /* Add extra space below the last main content section */
+        }
+        .archive {
+            margin-top: 2em;
+        }
+        .archive table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .archive th, .archive td {
+            padding: 1em;
+            text-align: left;
+            border-bottom: 1px solid #000000; /* Black border */
+            color: #000000; /* Black font color for table content */
+        }
+        .archive th {
+            background-color: #000000; /* Black background for table header */
+            color: white; /* White font color for table header */
+        }
+        .archive tr:hover {
+            background-color: #f0f8ff;
+        }
+        footer {
+            background-color: #000000; /* Black background for the footer */
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            width: 100%;
+            position: relative;
+        }
+        .twitter-link {
+            margin-top: 1em;
+        }
+        .twitter-link a {
+            color: #00acee;
+            text-decoration: none;
+            transition: text-decoration 0.3s;
+        }
+        .twitter-link a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            nav a {
+                padding: 0.5em 3em; /* Adjusted padding for smaller screens */
+            }
+            .container {
+                width: 90%;
+            }
+            header {
+                font-size: 1em; /* Adjust font size for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GLOBAL AND LOCAL INEQUALITY RESEARCH DATA ARCHIVE</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#archive">Archive</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="main-content" id="about">
+            <h2>About</h2>
+            <p>Welcome to the Research Data Archive of Global and Local Inequality Research. Here you can find various research data available for download.</p>
+        </div>
+        <div class="main-content" id="archive">
+            <h2>Archive</h2>
+            <div class="archive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>GDP per capita</td>
+                            <td>Description of GDP per capita data</td>
+                            <td><a href="data/research_data_1.xlsx" download>Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Research Data 2</td>
+                            <td>Description of Research Data 2</td>
+                            <td><a href="data/research_data_2.xlsx" download>Download</a></td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="main-content" id="contact">
+            <h2>Contact</h2>
+            <p>If you have any questions, feel free to reach out at <a href="mailto:research@archive.com">research@archive.com</a>.</p>
+            <br><br><br><br><br>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Research Archive. All rights reserved.
+        <div class="twitter-link">
+            <a href="https://twitter.com/ResearchArchive" target="_blank">Follow us on Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
